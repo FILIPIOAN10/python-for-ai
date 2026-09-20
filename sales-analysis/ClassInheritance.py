@@ -25,3 +25,4 @@ print(my_dog.sleep())  # Buddy is sleeping
 
 # Dog can also do dog things
 print(my_dog.bark())   # Buddy says woof!
+print(my_dog.bark()) 
