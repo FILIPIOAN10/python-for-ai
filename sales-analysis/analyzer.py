@@ -23,3 +23,7 @@ for index, row in df.iterrows():
 # Show grand total
 grand_total = df['total'].sum()
 formatted_grand_total = format_currency(grand_total)
+formatted_grand_total = format_currency(grand_total)
+formatted_grand_total = format_currency(grand_total)
+formatted_grand_total = format_currency(grand_total)
+formatted_grand_total = format_currency(grand_total)
