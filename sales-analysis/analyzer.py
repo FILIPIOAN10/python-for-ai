@@ -15,7 +15,7 @@ for index, row in df.iterrows():
 df['total'] = totals
 
 # Display with formatted totals
-print("Sales Data:")
+
 for index, row in df.iterrows():
     formatted_total = format_currency(row['total'])
     print(f"{row['product']}: {formatted_total}")
@@ -23,4 +23,3 @@ for index, row in df.iterrows():
 # Show grand total
 grand_total = df['total'].sum()
 formatted_grand_total = format_currency(grand_total)
-print(f"\nGrand Total: {formatted_grand_total}")
